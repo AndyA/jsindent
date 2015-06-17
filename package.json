@@ -1,5 +1,8 @@
 {
    "author" : "Andy Armstrong <andy@hexten.net>",
+   "bin" : {
+      "jsindent" : "bin/jsindent.js"
+   },
    "bugs" : {
       "url" : "https://github.com/AndyA/jsindent/issues"
    },
@@ -44,7 +47,7 @@
       "url" : "git+ssh://git@github.com/AndyA/jsindent.git"
    },
    "scripts" : {
-      "test" : "mocha --recursive"
+      "test" : "gulp test"
    },
    "version" : "0.0.1"
 }
