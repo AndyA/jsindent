@@ -8,6 +8,7 @@
    },
    "dependencies" : {
       "pretty-js" : "andya/pretty-js",
+      "rw" : "^0.1.4",
       "underscore" : "^1.8.3"
    },
    "description" : "Javascript code formatter.",
