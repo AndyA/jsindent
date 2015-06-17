@@ -8,7 +8,7 @@ var pjs = require("pretty-js");
 var _ = require("underscore");
 var rcfile = ".jsindent.json";
 var rcpath = [
-    process.env.HOME, 
+    process.env.HOME,
     "."
   ];
 
