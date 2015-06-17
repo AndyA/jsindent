@@ -4,9 +4,30 @@
       "url" : "https://github.com/AndyA/jsindent/issues"
    },
    "dependencies" : {
-      "pretty-js" : "andya/pretty-js"
+      "pretty-js" : "andya/pretty-js",
+      "underscore" : "^1.8.3"
    },
    "description" : "Javascript code formatter.",
+   "devDependencies" : {
+      "chai" : "^2.3.0",
+      "chai-subset" : "^1.0.1",
+      "eslint-plugin-mocha" : "^0.2.2",
+      "gulp" : "^3.9.0",
+      "gulp-eslint" : "^0.14.0",
+      "gulp-mocha" : "^2.1.1"
+   },
+   "eslintConfig" : {
+      "env" : {
+         "browser" : true,
+         "node" : true
+      },
+      "plugins" : [
+         "mocha"
+      ],
+      "rules" : {
+         "mocha/no-exclusive-tests" : 2
+      }
+   },
    "homepage" : "https://github.com/AndyA/jsindent#readme",
    "keywords" : [
       "tools",
