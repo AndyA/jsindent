@@ -1,0 +1,29 @@
+{
+   "author" : "Andy Armstrong <andy@hexten.net>",
+   "bugs" : {
+      "url" : "https://github.com/AndyA/jsindent/issues"
+   },
+   "dependencies" : {
+      "pretty-js" : "andya/pretty-js"
+   },
+   "description" : "Javascript code formatter.",
+   "homepage" : "https://github.com/AndyA/jsindent#readme",
+   "keywords" : [
+      "tools",
+      "pretty",
+      "printer",
+      "formatter",
+      "indent"
+   ],
+   "license" : "MIT",
+   "main" : "index.js",
+   "name" : "jsindent",
+   "repository" : {
+      "type" : "git",
+      "url" : "git+ssh://git@github.com/AndyA/jsindent.git"
+   },
+   "scripts" : {
+      "test" : "mocha --recursive"
+   },
+   "version" : "0.0.1"
+}
